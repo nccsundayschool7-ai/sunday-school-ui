@@ -1,0 +1,254 @@
+[
+  {
+    "id": "L001",
+    "first_name": "Arjun",
+    "last_name": "Gupta",
+    "role": "teacher",
+    "phone": "+91-89921-64211",
+    "email": "arjun.gupta@example.com",
+    "assigned_groups": [
+      "beginners",
+      "teens"
+    ],
+    "photo_url": ""
+  },
+  {
+    "id": "L002",
+    "first_name": "Rohit",
+    "last_name": "Mathews",
+    "role": "teacher",
+    "phone": "+91-83115-63214",
+    "email": "rohit.mathews@example.com",
+    "assigned_groups": [
+      "primary"
+    ],
+    "photo_url": ""
+  },
+  {
+    "id": "L003",
+    "first_name": "Vivaan",
+    "last_name": "Fernandes",
+    "role": "teacher",
+    "phone": "+91-90444-18745",
+    "email": "vivaan.fernandes@example.com",
+    "assigned_groups": [
+      "telugu kids",
+      "primary"
+    ],
+    "photo_url": ""
+  },
+  {
+    "id": "L004",
+    "first_name": "Meera",
+    "last_name": "Philip",
+    "role": "teacher",
+    "phone": "+91-84359-37441",
+    "email": "meera.philip@example.com",
+    "assigned_groups": [
+      "juniors",
+      "toddlers"
+    ],
+    "photo_url": ""
+  },
+  {
+    "id": "L005",
+    "first_name": "Diya",
+    "last_name": "Thomas",
+    "role": "teacher",
+    "phone": "+91-90937-73249",
+    "email": "diya.thomas@example.com",
+    "assigned_groups": [
+      "beginners",
+      "juniors"
+    ],
+    "photo_url": ""
+  },
+  {
+    "id": "L006",
+    "first_name": "Aaron",
+    "last_name": "Philip",
+    "role": "teacher",
+    "phone": "+91-72350-49724",
+    "email": "aaron.philip@example.com",
+    "assigned_groups": [
+      "toddlers",
+      "teens"
+    ],
+    "photo_url": ""
+  },
+  {
+    "id": "L007",
+    "first_name": "Grace",
+    "last_name": "Mathews",
+    "role": "teacher",
+    "phone": "+91-97576-54573",
+    "email": "grace.mathews@example.com",
+    "assigned_groups": [
+      "juniors",
+      "teens"
+    ],
+    "photo_url": ""
+  },
+  {
+    "id": "L008",
+    "first_name": "Maya",
+    "last_name": "Samuel",
+    "role": "teacher",
+    "phone": "+91-67266-43517",
+    "email": "maya.samuel@example.com",
+    "assigned_groups": [
+      "juniors",
+      "telugu kids"
+    ],
+    "photo_url": ""
+  },
+  {
+    "id": "L009",
+    "first_name": "Nathan",
+    "last_name": "Joseph",
+    "role": "teacher",
+    "phone": "+91-95626-64259",
+    "email": "nathan.joseph@example.com",
+    "assigned_groups": [
+      "beginners"
+    ],
+    "photo_url": ""
+  },
+  {
+    "id": "L010",
+    "first_name": "Aarav",
+    "last_name": "Abraham",
+    "role": "teacher",
+    "phone": "+91-63162-39398",
+    "email": "aarav.abraham@example.com",
+    "assigned_groups": [
+      "telugu kids",
+      "toddlers"
+    ],
+    "photo_url": ""
+  },
+  {
+    "id": "L011",
+    "first_name": "Samuel",
+    "last_name": "Raj",
+    "role": "teacher",
+    "phone": "+91-70101-15792",
+    "email": "samuel.raj@example.com",
+    "assigned_groups": [
+      "beginners",
+      "telugu kids"
+    ],
+    "photo_url": ""
+  },
+  {
+    "id": "L012",
+    "first_name": "Joy",
+    "last_name": "Babu",
+    "role": "teacher",
+    "phone": "+91-67610-85030",
+    "email": "joy.babu@example.com",
+    "assigned_groups": [
+      "juniors",
+      "teens"
+    ],
+    "photo_url": ""
+  },
+  {
+    "id": "L013",
+    "first_name": "Meera",
+    "last_name": "Samuel",
+    "role": "assistant_teacher",
+    "phone": "+91-62767-75365",
+    "email": "meera.samuel@example.com",
+    "assigned_groups": [
+      "beginners"
+    ],
+    "photo_url": ""
+  },
+  {
+    "id": "L014",
+    "first_name": "Aaron",
+    "last_name": "Pillai",
+    "role": "assistant_teacher",
+    "phone": "+91-88087-74117",
+    "email": "aaron.pillai@example.com",
+    "assigned_groups": [
+      "beginners"
+    ],
+    "photo_url": ""
+  },
+  {
+    "id": "L015",
+    "first_name": "Maya",
+    "last_name": "Prasad",
+    "role": "assistant_teacher",
+    "phone": "+91-93372-91230",
+    "email": "maya.prasad@example.com",
+    "assigned_groups": [
+      "primary"
+    ],
+    "photo_url": ""
+  },
+  {
+    "id": "L016",
+    "first_name": "Diya",
+    "last_name": "Kumar",
+    "role": "assistant_teacher",
+    "phone": "+91-66478-92441",
+    "email": "diya.kumar@example.com",
+    "assigned_groups": [
+      "juniors"
+    ],
+    "photo_url": ""
+  },
+  {
+    "id": "L017",
+    "first_name": "Joshua",
+    "last_name": "Menon",
+    "role": "support_staff",
+    "phone": "+91-91763-39986",
+    "email": "joshua.menon@example.com",
+    "assigned_groups": [
+      "toddlers"
+    ],
+    "photo_url": ""
+  },
+  {
+    "id": "L018",
+    "first_name": "Hannah",
+    "last_name": "Joseph",
+    "role": "support_staff",
+    "phone": "+91-91034-69928",
+    "email": "hannah.joseph@example.com",
+    "assigned_groups": [
+      "beginners"
+    ],
+    "photo_url": ""
+  },
+  {
+    "id": "L019",
+    "first_name": "Leah",
+    "last_name": "Babu",
+    "role": "support_staff",
+    "phone": "+91-71947-21905",
+    "email": "leah.babu@example.com",
+    "assigned_groups": [
+      "juniors",
+      "teens"
+    ],
+    "photo_url": ""
+  },
+  {
+    "id": "L020",
+    "first_name": "Meera",
+    "last_name": "Thomas",
+    "role": "support_staff",
+    "phone": "+91-60709-81388",
+    "email": "meera.thomas@example.com",
+    "assigned_groups": [
+      "telugu kids",
+      "beginners"
+    ],
+    "photo_url": ""
+  }
+]
