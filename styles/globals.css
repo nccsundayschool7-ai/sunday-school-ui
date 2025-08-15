@@ -6,21 +6,21 @@
 :root { color-scheme: light dark; }
 
 body {
-  @apply bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-50;
+  @apply bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-50 antialiased;
 }
 
 .container {
   @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
 }
 
-.card { @apply bg-white dark:bg-gray-800 rounded-xl shadow p-4; }
-.btn  { @apply px-4 py-2 rounded-lg font-semibold transition active:scale-95; }
-.btn-primary { @apply bg-brand-600 text-white hover:bg-brand-700; }
-.btn-ghost   { @apply bg-transparent hover:bg-black/5 dark:hover:bg-white/10; }
-.input { @apply w-full px-3 py-2 border rounded-md dark:bg-gray-900 dark:border-gray-700; }
-.select { @apply w-full px-3 py-2 border rounded-md dark:bg-gray-900 dark:border-gray-700; }
+.card { @apply bg-white dark:bg-gray-800 rounded-xl shadow-sm ring-1 ring-gray-100 dark:ring-gray-700 p-4 transition hover:shadow-md; }
+.btn  { @apply inline-flex items-center gap-2 px-4 py-2 rounded-lg font-semibold transition active:scale-95; }
+.btn-primary { @apply bg-brand-600 text-white hover:bg-brand-700 focus:outline-none focus:ring-2 focus:ring-brand-300 dark:focus:ring-brand-700; }
+.btn-ghost   { @apply bg-transparent hover:bg-black/5 dark:hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:focus:ring-gray-600; }
+.input { @apply w-full px-3 py-2 border rounded-md dark:bg-gray-900 dark:border-gray-700 focus:outline-none focus:ring-2 focus:ring-brand-300 dark:focus:ring-brand-700; }
+.select { @apply w-full px-3 py-2 border rounded-md dark:bg-gray-900 dark:border-gray-700 focus:outline-none focus:ring-2 focus:ring-brand-300 dark:focus:ring-brand-700; }
 .label  { @apply text-sm opacity-80 mb-1; }
-.badge { @apply inline-flex items-center px-2 py-0.5 text-xs rounded-full bg-brand-50 text-brand-700 dark:bg-brand-700 dark:text-white; }
+.badge { @apply inline-flex items-center px-2 py-0.5 text-xs rounded-full bg-brand-50 text-brand-700 dark:bg-brand-700/60 dark:text-white hover:bg-brand-100 dark:hover:bg-brand-700; }
 .table { @apply min-w-full text-sm; }
 .table th, .table td { @apply px-3 py-2 border-b border-gray-200 dark:border-gray-700; }
 .kpi { @apply card flex flex-col gap-1; }
@@ -29,3 +29,9 @@ body {
 .nav-link { @apply px-3 py-2 rounded-md hover:bg-black/5 dark:hover:bg-white/10; }
 .active { @apply bg-brand-600 text-white; }
 img.logo { height: 40px; width: auto; object-fit: contain; }
+
+/* react-day-picker polish */
+.rdp { --rdp-cell-size: 38px; --rdp-accent-color: theme(colors.brand.600); }
+.rdp-day_selected { @apply bg-brand-600 text-white; }
+.rdp-button:hover:not([disabled]) { @apply bg-black/5 dark:bg-white/10; }
+.rdp-day_today:not(.rdp-day_selected) { @apply ring-1 ring-brand-300 dark:ring-brand-700; }
